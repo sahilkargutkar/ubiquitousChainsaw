@@ -32,6 +32,7 @@ const App = () => {
                       <a className="resume-link" href="tel:9892592559">
                         {" "}
                         (91) 9892592559
+                        {/* somefcks */}
                       </a>
                     </li>
                     <li className="mb-2">
