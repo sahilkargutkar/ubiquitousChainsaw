@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as Github } from "./Github.svg";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="main-wrapper">
@@ -22,7 +22,7 @@ function App() {
                     Sahil Kargutkar
                   </h2>
                   <div className="resume-tagline mb-3 mb-md-0">
-                    Software Developer
+                    MERN Stack Developer
                   </div>
                 </div>
                 <div className="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
@@ -46,12 +46,9 @@ function App() {
                     </li>
                     <li className="mb-2">
                       <FontAwesomeIcon icon={faGlobe} size="lg" />
-                      <a
-                        className="resume-link"
-                        href="https://sahilkargutkar.codes"
-                      >
+                      <a className="resume-link" href="">
                         {" "}
-                        sahilkargutkar.codes
+                        Under Development
                       </a>
                     </li>
                     <li className="mb-2">
@@ -77,13 +74,12 @@ function App() {
                 />
                 <div className="media-body text-left">
                   <p className="mb-0">
-                    I am an aspiring Software Developer looking forward to a
-                    challenging career and be a part of a progressive
-                    organization that provides an opportunity to enhance my
-                    knowledge and utilize my skills towards the growth of the
-                    organization.I am proficient in Full-Stack Development with
-                    Languages and Frameworks like React,JavaScript,HTML/CSS,Java
-                    and Runtime enviornment Node.Js.
+                    I am highly self-motivated Web Developer who spends most of
+                    his time building applications and keeping myself up-to-date
+                    with latest technologies.I am proficient in
+                    React,Node,Express and MongoDB.Experience in working with
+                    REST API testing tools like Postman and Swagger.I also have
+                    basic knowledge of Nextjs and TypeScript.
                   </p>
                 </div>
               </div>
@@ -92,138 +88,159 @@ function App() {
             <div className="resume-body">
               <div className="row">
                 <div className="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-                  {/* <section className="work-section py-3">
+                  <section className="work-section py-3">
                     <h3 className="text-uppercase resume-section-heading mb-4">
                       Work Experiences
                     </h3>
                     <div className="item mb-3">
                       <div className="item-heading row align-items-center mb-2">
                         <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Senior Software Engineer
+                          MERN Stack Developer
                         </h4>
                         <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Google | 2019 - Present
+                          3M Technology | Mar-Nov 2021
                         </div>
                       </div>
                       <div className="item-content">
                         <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque penatibus
-                          et magnis dis parturient montes, nascetur ridiculus
-                          mus. Donec quam felis, ultricies nec, pellentesque eu,
-                          pretium quis, sem. Donec pede justo, fringilla vel.
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Aenean commodo ligula eget dolor. Aenean massa.
-                          Cum sociis natoque penatibus et magnis dis parturient
-                          montes, nascetur ridiculus mus. Donec quam felis.
+                          Worked with development teams to ideate the
+                          software.Designed client-side and server-side
+                          architecture,Built pixel perfect UI with Figma and
+                          Adobe XD with responsiveness and Efficiency.
+                          <br />
+                          Developed Effective APIs with MVC architecture.
+                          <br />
                         </p>
+                        <span className="text-muted">
+                          Job Responsibilities mainly included :-
+                        </span>
                         <ul className="resume-list">
-                          <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                          <li>Aenean commodo ligula eget dolor.</li>
-                          <li>Etiam ultricies nisi vel augue.</li>
+                          <li>
+                            Created reusable components used across various
+                            modules using React-JS, React-DOM, Bootstrap, and
+                            JSX.
+                          </li>
+                          <li>
+                            Involved in creating REST services using Node-JS,
+                            Express-JS, Mongoose and Body-Parser NPM modules.
+                          </li>
+                          <li>
+                            Experience in upgrading and migrating various
+                            versions of Mongo database on different platforms.
+                            Designed and developed custom Mongo applications
+                            specific to clients' needs.
+                          </li>
+                          <li>
+                            Worked in using React JS components, Forms, Events,
+                            Keys, Router and Animations concept.
+                          </li>
+                          <li>
+                            Used JavaScript Fetch API in application to retrieve
+                            data from Back-End and to also perform RESTFUL
+                            services.
+                          </li>
                         </ul>
                       </div>
                     </div>
-                    <div className="item mb-3">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Lead Software Developer
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Apple | 2016 - 2019
+                    {/* <div className="item mb-3">
+                        <div className="item-heading row align-items-center mb-2">
+                          <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                            Lead Software Developer
+                          </h4>
+                          <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                            Apple | 2016 - 2019
+                          </div>
+                        </div>
+                        <div className="item-content">
+                          <p>
+                            Role description goes here ipsum dolor sit amet,
+                            consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            et magnis dis parturient montes, nascetur ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,
+                            pretium quis, sem. Donec pede justo, fringilla vel.
+                          </p>
+                          <ul className="resume-list">
+                            <li>Lorem ipsum dolor sit amet, consectetuer.</li>
+                            <li>Aenean commodo ligula eget dolor.</li>
+                          </ul>
                         </div>
                       </div>
-                      <div className="item-content">
-                        <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque penatibus
-                          et magnis dis parturient montes, nascetur ridiculus
-                          mus. Donec quam felis, ultricies nec, pellentesque eu,
-                          pretium quis, sem. Donec pede justo, fringilla vel.
-                        </p>
-                        <ul className="resume-list">
-                          <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                          <li>Aenean commodo ligula eget dolor.</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="item mb-3">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Senior Software Developer
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Dropbox | 2014 - 2016
+                      <div className="item mb-3">
+                        <div className="item-heading row align-items-center mb-2">
+                          <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                            Senior Software Developer
+                          </h4>
+                          <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                            Dropbox | 2014 - 2016
+                          </div>
+                        </div>
+                        <div className="item-content">
+                          <p>
+                            Role description goes here ipsum dolor sit amet,
+                            consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            et magnis dis parturient montes, nascetur ridiculus
+                            mus.
+                          </p>
                         </div>
                       </div>
-                      <div className="item-content">
-                        <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque penatibus
-                          et magnis dis parturient montes, nascetur ridiculus
-                          mus.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Senior Developer
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Uber | 2013 - 2014
+                      <div className="item">
+                        <div className="item-heading row align-items-center mb-2">
+                          <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                            Senior Developer
+                          </h4>
+                          <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                            Uber | 2013 - 2014
+                          </div>
+                        </div>
+                        <div className="item-content">
+                          <p>
+                            Role description goes here ipsum dolor sit amet,
+                            consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor. Aenean massa. Cum sociis natoque
+                            penatibus.{" "}
+                          </p>
                         </div>
                       </div>
-                      <div className="item-content">
-                        <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque
-                          penatibus.{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Backend Developer
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Amazon | 2014 - 2016
+                      <div className="item">
+                        <div className="item-heading row align-items-center mb-2">
+                          <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                            Backend Developer
+                          </h4>
+                          <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                            Amazon | 2014 - 2016
+                          </div>
+                        </div>
+                        <div className="item-content">
+                          <p>
+                            Role description goes here ipsum dolor sit amet,
+                            consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            et magnis dis parturient montes, nascetur ridiculus
+                            mus.
+                          </p>
                         </div>
                       </div>
-                      <div className="item-content">
-                        <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque penatibus
-                          et magnis dis parturient montes, nascetur ridiculus
-                          mus.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Frontend Developer
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Startup | 2013 - 2014
+                      <div className="item">
+                        <div className="item-heading row align-items-center mb-2">
+                          <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                            Frontend Developer
+                          </h4>
+                          <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                            Startup | 2013 - 2014
+                          </div>
                         </div>
-                      </div>
-                      <div className="item-content">
-                        <p>
-                          Role description goes here ipsum dolor sit amet,
-                          consectetuer adipiscing elit. Aenean commodo ligula
-                          eget dolor. Aenean massa. Cum sociis natoque
-                          penatibus.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </section> */}
+                        <div className="item-content">
+                          <p>
+                            Role description goes here ipsum dolor sit amet,
+                            consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor. Aenean massa. Cum sociis natoque
+                            penatibus.{" "}
+                          </p>
+                        </div> */}
+                    {/* </div> */}
+                  </section>
 
                   <section className="project-section py-3">
                     <h3 className="text-uppercase resume-section-heading mb-4">
@@ -319,64 +336,6 @@ function App() {
                         </p>
                       </div>
                     </div>
-                    <div className="item">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Stock Market Portfolio &nbsp;
-                          <a
-                            href="https://github.com/sahilkargutkar/StockMarketusingapi"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="badge badge-pill badge-dark">
-                              <Github />
-                              &nbsp; GITHUB
-                            </span>
-                          </a>
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Open Source
-                        </div>
-                      </div>
-                      <div className="item-content">
-                        <p>
-                          Stock market portfolio which uses api to get the
-                          current share price and add it to your portfolio and
-                          then calculates your Net profit or loss.I have used
-                          Alpha vantage API to fetch stock prices and display it
-                          in .csv format
-                        </p>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="item-heading row align-items-center mb-2">
-                        <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                          Health Care Bot &nbsp;
-                          <a
-                            href="https://github.com/sahilkargutkar/HealthCareBot"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="badge badge-pill badge-dark">
-                              <Github />
-                              &nbsp; GITHUB
-                            </span>
-                          </a>
-                        </h4>
-                        <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                          Open Source
-                        </div>
-                      </div>
-                      <div className="item-content">
-                        <p>
-                          The Healthcare Bot comes with built-in healthcare AI
-                          services, including a fully functional symptom
-                          checker, medical content from trusted industry
-                          sources, and language understanding models that are
-                          tuned to understand medical and clinical terminology.
-                        </p>
-                      </div>
-                    </div>
                   </section>
                 </div>
                 <aside className="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
@@ -387,20 +346,21 @@ function App() {
                     <div className="item">
                       <h4 className="item-title">Programming</h4>
                       <ul className="list-unstyled resume-skills-list">
-                        <li className="mb-2">HTML/CSS</li>
+                        {/* <li className="mb-2">HTML/CSS</li> */}
                         <li className="mb-2">JavaScript</li>
-                        <li className="mb-2">Node.js</li>
+                        <li className="mb-2">Node.Js</li>
                         <li className="mb-2">Java</li>
                       </ul>
                     </div>
                     <br />
                     <div className="item">
-                      <h4 className="item-title">Frameworks/Databases</h4>
+                      <h4 className="item-title">Libraries & Frameworks</h4>
                       <ul className="list-unstyled resume-skills-list">
-                        <li className="mb-2">React</li>
+                        <li className="mb-2">React.Js </li>
                         <li className="mb-2">Express</li>
-                        <li className="mb-2">MongoDB</li>
-                        <li>MSSQL</li>
+                        <li className="mb-2">Mongoose/MongoDB </li>
+                        {/* <li className="mb-2">MongoDB</li>
+                          <li>MSSQL</li> */}
                       </ul>
                     </div>
                   </section>
@@ -559,6 +519,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
